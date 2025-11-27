@@ -1,0 +1,60 @@
+{
+  "timestamp": "2025-11-28T01:53:26.217638",
+  "user_preferences": {
+    "investment_amount": 500000.0,
+    "risk_profile": "Aggressive",
+    "time_horizon": 3,
+    "preferred_sectors": [
+      "Aviation",
+      "Finance"
+    ],
+    "esg_preference": false
+  },
+  "portfolio_allocation": [
+    {
+      "stock": "MS",
+      "sector": "Finance",
+      "weight": 0.2627690092249351,
+      "price": 48.349998,
+      "expected_return": 0.4003373552714826,
+      "volatility": 0.5553573134892436,
+      "investment": 131384.50461246757,
+      "shares": 2717
+    },
+    {
+      "stock": "DB",
+      "sector": "Finance",
+      "weight": 0.2613186867144421,
+      "price": 8.4,
+      "expected_return": 0.3843292858009568,
+      "volatility": 0.5839977655113131,
+      "investment": 130659.34335722105,
+      "shares": 15554
+    },
+    {
+      "stock": "GS",
+      "sector": "Finance",
+      "weight": 0.240395026032076,
+      "price": 200.970001,
+      "expected_return": 0.15338243683619357,
+      "volatility": 0.5091406447406538,
+      "investment": 120197.51301603799,
+      "shares": 598
+    },
+    {
+      "stock": "ALGT",
+      "sector": "Aviation",
+      "weight": 0.23551727802854672,
+      "price": 119.800003,
+      "expected_return": 0.09954384001701277,
+      "volatility": 0.7895361192837483,
+      "investment": 117758.63901427336,
+      "shares": 982
+    }
+  ],
+  "model_info": {
+    "name": "Bayesian Ridge",
+    "test_r2": 0.974674446601822,
+    "training_date": "2025-11-28T01:46:56.561094"
+  }
+}

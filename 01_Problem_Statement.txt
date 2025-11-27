@@ -1,0 +1,72 @@
+PORTFOLIO ML RECOMMENDATION SYSTEM - PROBLEM STATEMENT
+=====================================================
+
+PROBLEM OVERVIEW:
+Develop an intelligent portfolio management system that uses machine learning to provide
+personalized investment recommendations based on user preferences and market analysis.
+
+KEY REQUIREMENTS:
+1. Multi-model ML comparison using 80/20 train/test split with validation
+2. Portfolio-level prediction using all companies' data together
+3. Interactive user interface for investment preferences
+4. Data-driven recommendations with performance metrics
+5. Comprehensive model comparison and selection transparency
+
+TARGET USERS:
+Investors like Patrick and Peter Jyengar who need personalized portfolio recommendations:
+
+PATRICK JYENGAR (Conservative Investor):
+- Investment Amount: $1,000,000
+- Risk Profile: Conservative
+- Time Horizon: 5+ years
+- Preferred Sectors: Healthcare, Technology
+- ESG Preference: Yes
+- Expected Outcome: Stable growth with lower volatility
+
+PETER JYENGAR (Aggressive Investor):
+- Investment Amount: $1,000,000
+- Risk Profile: Aggressive
+- Time Horizon: 2-5 years
+- Sector Preference: No specific preference (all sectors)
+- ESG Preference: No
+- Expected Outcome: Maximum returns with higher risk tolerance
+
+TECHNICAL REQUIREMENTS:
+1. Train and compare 7 regression models:
+   - Linear Regression, Ridge Regression, Lasso Regression
+   - Support Vector Regression (SVR)
+   - XGBoost, Random Forest, Bayesian Ridge
+
+2. Use proper time series validation:
+   - 80% training data (2015-2019)
+   - 20% testing data (2019-2020)
+   - Rolling window cross-validation
+
+3. Portfolio-level feature engineering:
+   - 89 advanced features from 24 companies
+   - Technical indicators (RSI, Bollinger Bands, MACD)
+   - Sector analysis and correlations
+   - Volume and volatility metrics
+
+4. Interactive recommendation system:
+   - User input collection (amount, risk, time horizon, sectors, ESG)
+   - Real-time portfolio allocation generation
+   - Performance projections and recommendations
+
+5. Model transparency:
+   - Complete model comparison tables and visualizations
+   - Clear explanation of why the best model was selected
+   - Performance metrics and validation results
+
+EXPECTED OUTCOMES:
+- Identify the best-performing ML model through rigorous comparison
+- Provide instant, personalized portfolio recommendations
+- Generate comprehensive performance analysis and projections
+- Create reusable system for continuous portfolio management
+
+SUCCESS CRITERIA:
+- Model accuracy >95% on test data
+- Clear winner identification through cross-validation
+- User-friendly interface for non-technical investors
+- Complete documentation and visualization of results
+- Modular system design for easy maintenance and updates

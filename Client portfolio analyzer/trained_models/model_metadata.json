@@ -1,0 +1,11 @@
+{
+  "model_name": "Bayesian Ridge",
+  "feature_count": 90,
+  "training_date": "2025-11-28T01:46:56.561094",
+  "test_metrics": {
+    "test_rmse": 113.45371951551444,
+    "test_r2": 0.974674446601822,
+    "cv_r2": 0.7892463181831861,
+    "cv_rmse": 67.45976408243845
+  }
+}

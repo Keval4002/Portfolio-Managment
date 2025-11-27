@@ -1,0 +1,102 @@
+{
+  "timestamp": "2025-11-28T01:40:41.865053",
+  "user_preferences": {
+    "investment_amount": 500000.0,
+    "risk_profile": "Conservative",
+    "time_horizon": 3,
+    "preferred_sectors": [
+      "Aviation",
+      "Finance",
+      "Healthcare",
+      "Technology"
+    ],
+    "esg_preference": true
+  },
+  "portfolio_allocation": [
+    {
+      "stock": "AAPL",
+      "sector": "Technology",
+      "weight": 0.16941552236385346,
+      "price": 115.809998,
+      "expected_return": 1.3403177291845987,
+      "volatility": 0.4437391661383354,
+      "investment": 84707.76118192673,
+      "shares": 731
+    },
+    {
+      "stock": "AMZN",
+      "sector": "Technology",
+      "weight": 0.14468498318078946,
+      "price": 3148.72998,
+      "expected_return": 0.9621944426972859,
+      "volatility": 0.3568564103180746,
+      "investment": 72342.49159039473,
+      "shares": 22
+    },
+    {
+      "stock": "MSFT",
+      "sector": "Technology",
+      "weight": 0.12836167173318835,
+      "price": 210.330002,
+      "expected_return": 0.7126154050049027,
+      "volatility": 0.42542109659598476,
+      "investment": 64180.83586659418,
+      "shares": 305
+    },
+    {
+      "stock": "FB",
+      "sector": "Technology",
+      "weight": 0.12420565203248392,
+      "price": 261.899994,
+      "expected_return": 0.6490709826086223,
+      "volatility": 0.4313557492015796,
+      "investment": 62102.82601624196,
+      "shares": 237
+    },
+    {
+      "stock": "UNH",
+      "sector": "Healthcare",
+      "weight": 0.12181409970125434,
+      "price": 311.769989,
+      "expected_return": 0.612504791285539,
+      "volatility": 0.47419872417204123,
+      "investment": 60907.04985062717,
+      "shares": 195
+    },
+    {
+      "stock": "GOOG",
+      "sector": "Technology",
+      "weight": 0.10374305542761345,
+      "price": 1469.599976,
+      "expected_return": 0.3362033891840326,
+      "volatility": 0.3650307243261103,
+      "investment": 51871.527713806725,
+      "shares": 35
+    },
+    {
+      "stock": "RHHBY",
+      "sector": "Healthcare",
+      "weight": 0.09983738228526072,
+      "price": 42.810001,
+      "expected_return": 0.2764866982700309,
+      "volatility": 0.3233454862540264,
+      "investment": 49918.69114263036,
+      "shares": 1166
+    },
+    {
+      "stock": "MS",
+      "sector": "Finance",
+      "weight": 0.10793763327555615,
+      "price": 48.349998,
+      "expected_return": 0.4003373552714826,
+      "volatility": 0.5553573134892436,
+      "investment": 53968.81663777807,
+      "shares": 1116
+    }
+  ],
+  "model_info": {
+    "name": "Bayesian Ridge",
+    "test_r2": 0.974674446601822,
+    "training_date": "2025-11-28T01:36:07.708135"
+  }
+}

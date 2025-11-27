@@ -1,0 +1,9 @@
+Selection_Criteria,Value_Explanation
+Primary Metric,Cross-Validation R² Score (most important)
+Best Model,Bayesian Ridge Regression
+CV R² Score,0.7892 (highest among all models)
+CV RMSE,$67.46 (lowest prediction error)
+Test R² Score,0.9769 (excellent generalization)
+Performance Gap,0.3488 R² advantage over 2nd place
+Why This Model,Handles portfolio uncertainty better than linear models
+Key Advantage,Most consistent performance across validation windows

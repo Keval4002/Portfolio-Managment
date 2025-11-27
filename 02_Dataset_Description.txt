@@ -1,0 +1,121 @@
+PORTFOLIO ML DATASET DESCRIPTION
+================================
+
+DATASET OVERVIEW:
+Comprehensive stock market dataset covering 24 companies across 4 major sectors,
+plus S&P 500 benchmark data for portfolio analysis and ML model training.
+
+DATA SCOPE:
+- Time Period: 5 years (2015-2020)
+- Total Records: 1,259 daily observations per stock
+- Companies: 24 stocks + S&P 500 benchmark
+- Features per Stock: Date, Close Price, Volume
+- Total Raw Features: 51 columns
+
+SECTOR BREAKDOWN:
+
+1. AVIATION SECTOR (6 companies):
+   - AAL (American Airlines)
+   - ALGT (Allegiant Travel Company)
+   - ALK (Alaska Air Group)
+   - DAL (Delta Air Lines)
+   - HA (Hawaiian Airlines)
+   - LUV (Southwest Airlines)
+
+2. FINANCE SECTOR (6 companies):
+   - BCS (Barclays)
+   - CS (Credit Suisse)
+   - DB (Deutsche Bank)
+   - GS (Goldman Sachs)
+   - MS (Morgan Stanley)
+   - WFC (Wells Fargo)
+
+3. HEALTHCARE SECTOR (6 companies):
+   - BHC (Bausch Health Companies)
+   - JNJ (Johnson & Johnson)
+   - MRK (Merck & Co.)
+   - PFE (Pfizer)
+   - RHHBY (Roche Holding)
+   - UNH (UnitedHealth Group)
+
+4. TECHNOLOGY SECTOR (6 companies):
+   - AAPL (Apple)
+   - AMZN (Amazon)
+   - FB (Meta/Facebook)
+   - GOOG (Google/Alphabet)
+   - IBM (IBM)
+   - MSFT (Microsoft)
+
+5. BENCHMARK:
+   - SP500 (S&P 500 Index)
+
+FEATURE ENGINEERING:
+From the raw 51 columns, the system generates 89 advanced portfolio-level features:
+
+1. PORTFOLIO AGGREGATIONS (15 features):
+   - Total portfolio value, average price, median price
+   - Price standard deviation and variance
+   - Portfolio returns (current, lagged 1-3 periods)
+   - Moving averages (5, 10, 20 day) and ratios
+   - Portfolio volatility metrics
+
+2. TECHNICAL INDICATORS (12 features):
+   - RSI (Relative Strength Index)
+   - Bollinger Bands (upper, lower, position)
+   - MACD (Moving Average Convergence Divergence)
+   - Price momentum and trend indicators
+
+3. SECTOR ANALYSIS (32 features - 8 per sector):
+   For each sector (Aviation, Finance, Healthcare, Technology):
+   - Total value and average price
+   - Price standard deviation
+   - Total trading volume
+   - Sector returns and lagged returns
+   - Sector moving averages (5, 10 day)
+   - Sector volatility (5-day rolling)
+
+4. MARKET COMPARISON (8 features):
+   - S&P 500 price, returns, volume
+   - Portfolio vs S&P 500 return differential
+   - Portfolio vs S&P 500 value ratio
+   - Beta calculation (30-day rolling)
+   - Correlation with market (30-day rolling)
+
+5. CROSS-SECTOR CORRELATIONS (12 features):
+   - Pairwise correlations between all sector combinations
+   - Rolling 30-day sector correlation analysis
+
+6. VOLUME AND LIQUIDITY METRICS (10 features):
+   - Total portfolio volume
+   - Volume-weighted metrics
+   - Liquidity indicators
+   - Volume momentum and trends
+
+TARGET VARIABLE:
+- Next-day portfolio total value (regression target)
+- Calculated as sum of all 24 companies' closing prices
+- Used for predicting portfolio performance
+
+DATA QUALITY:
+- ✅ No missing values after preprocessing
+- ✅ Consistent time alignment across all stocks
+- ✅ Proper handling of weekends and holidays
+- ✅ Volume data normalized and validated
+- ✅ Outlier detection and treatment applied
+
+DATA SPLITTING:
+- Training Set: 982 samples (80%) - 2015 to Oct 2019
+- Test Set: 246 samples (20%) - Oct 2019 to Sep 2020
+- Validation: 20 rolling windows for cross-validation
+- Temporal ordering preserved (no data leakage)
+
+DATA USAGE:
+This dataset enables the ML models to:
+1. Learn portfolio-level patterns and relationships
+2. Capture sector dynamics and correlations
+3. Understand market cycles and trends
+4. Generate accurate portfolio value predictions
+5. Support personalized investment recommendations
+
+The comprehensive feature engineering transforms raw stock data into meaningful
+portfolio insights, enabling sophisticated ML analysis for investment decisions.

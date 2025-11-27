@@ -1,0 +1,8 @@
+Model,Rank,CV_R2,CV_RMSE,Test_R2,Status,Selection_Criteria,Why_Not_Best
+Bayesian Ridge,1,0.7892,$67.46,0.9769,🏆 WINNER,"Highest CV R², lowest RMSE, best consistency",This IS the best model!
+Lasso Regression,2,0.4404,$112.37,0.9742,✅ Good,Good performance but 0.349 R² behind winner,Prediction errors too high compared to best model
+Ridge Regression,3,0.4348,$110.16,0.9726,✅ Good,Good performance but 0.354 R² behind winner,Prediction errors too high compared to best model
+XGBoost,4,-0.8497,$168.78,-0.8046,❌ Poor,Poor cross-validation performance (negative R²),Negative R² indicates poor predictive ability
+Random Forest,5,-1.0115,$180.13,-0.5538,❌ Poor,Poor cross-validation performance (negative R²),Negative R² indicates poor predictive ability
+Linear Regression,6,-1.7692,$251.87,0.9708,❌ Poor,Poor cross-validation performance (negative R²),Negative R² indicates poor predictive ability
+SVR,7,-14.0589,$441.99,-6.5019,❌ Poor,Poor cross-validation performance (negative R²),Negative R² indicates poor predictive ability
