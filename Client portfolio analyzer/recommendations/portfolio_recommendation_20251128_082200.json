@@ -1,0 +1,79 @@
+{
+  "timestamp": "2025-11-28T08:22:00.668269",
+  "user_preferences": {
+    "investment_amount": 50000.0,
+    "risk_profile": "Moderate",
+    "time_horizon": 10,
+    "preferred_sectors": [
+      "Finance"
+    ],
+    "esg_preference": false
+  },
+  "portfolio_allocation": [
+    {
+      "stock": "MS",
+      "sector": "Finance",
+      "weight": 0.1994851206505391,
+      "price": 48.349998,
+      "expected_return": 0.4003373552714826,
+      "volatility": 0.5553573134892436,
+      "investment": 9974.256032526955,
+      "shares": 206
+    },
+    {
+      "stock": "DB",
+      "sector": "Finance",
+      "weight": 0.19794019299881846,
+      "price": 8.4,
+      "expected_return": 0.3843292858009568,
+      "volatility": 0.5839977655113131,
+      "investment": 9897.009649940923,
+      "shares": 1178
+    },
+    {
+      "stock": "GS",
+      "sector": "Finance",
+      "weight": 0.17565167321819453,
+      "price": 200.970001,
+      "expected_return": 0.15338243683619357,
+      "volatility": 0.5091406447406538,
+      "investment": 8782.583660909726,
+      "shares": 43
+    },
+    {
+      "stock": "CS",
+      "sector": "Finance",
+      "weight": 0.1602752771227693,
+      "price": 9.97,
+      "expected_return": -0.0059430931507576945,
+      "volatility": 0.5353401625630145,
+      "investment": 8013.763856138465,
+      "shares": 803
+    },
+    {
+      "stock": "BCS",
+      "sector": "Finance",
+      "weight": 0.14705539708591428,
+      "price": 5.01,
+      "expected_return": -0.14292346099277042,
+      "volatility": 0.6098934815210102,
+      "investment": 7352.769854295714,
+      "shares": 1467
+    },
+    {
+      "stock": "WFC",
+      "sector": "Finance",
+      "weight": 0.11959233892376428,
+      "price": 23.51,
+      "expected_return": -0.4274872995926893,
+      "volatility": 0.579759893019356,
+      "investment": 5979.616946188214,
+      "shares": 254
+    }
+  ],
+  "model_info": {
+    "name": "Bayesian Ridge",
+    "test_r2": 0.974674446601822,
+    "training_date": "2025-11-28T07:04:58.636363"
+  }
+}

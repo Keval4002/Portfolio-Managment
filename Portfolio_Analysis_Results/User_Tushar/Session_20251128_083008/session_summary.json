@@ -1,0 +1,35 @@
+{
+  "user_id": "Tushar",
+  "session_timestamp": "20251128_083008",
+  "session_dir": "..\\Portfolio_Analysis_Results\\User_Tushar\\Session_20251128_083008",
+  "user_preferences": {
+    "investment_amount": 10000000.0,
+    "risk_profile": "Aggressive",
+    "time_horizon": 5,
+    "preferred_sectors": [
+      "Technology"
+    ],
+    "esg_preference": false
+  },
+  "portfolio_summary": {
+    "expected_return": 0.9376239637907139,
+    "volatility": 0.20884379794615454,
+    "sharpe_ratio": 4.4895944864613995,
+    "total_investment": 10000000.0,
+    "number_of_stocks": 4,
+    "sectors": [
+      "Technology"
+    ]
+  },
+  "model_used": "Bayesian Ridge",
+  "model_accuracy": 0.974674446601822,
+  "analysis_date": "2025-11-28T08:30:31.988931",
+  "files_generated": {
+    "recommendation_data": "recommendations/portfolio_recommendation_20251128_083008.json",
+    "visualizations": [
+      "..\\Portfolio_Analysis_Results\\User_Tushar\\Session_20251128_083008\\visualizations\\portfolio_allocation_20251128_083008.png",
+      "..\\Portfolio_Analysis_Results\\User_Tushar\\Session_20251128_083008\\model_analysis\\model_performance_20251128_083008.png"
+    ],
+    "session_summary": "session_summary.json"
+  }
+}

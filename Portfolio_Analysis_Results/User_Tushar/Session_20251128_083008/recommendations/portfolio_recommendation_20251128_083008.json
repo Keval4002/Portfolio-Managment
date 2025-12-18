@@ -1,0 +1,71 @@
+{
+  "timestamp": "2025-11-28T08:30:30.413160",
+  "user_id": "Tushar",
+  "session_timestamp": "20251128_083008",
+  "user_preferences": {
+    "investment_amount": 10000000.0,
+    "risk_profile": "Aggressive",
+    "time_horizon": 5,
+    "preferred_sectors": [
+      "Technology"
+    ],
+    "esg_preference": false
+  },
+  "portfolio_allocation": [
+    {
+      "stock": "AAPL",
+      "sector": "Technology",
+      "weight": 0.28104961388430044,
+      "price": 115.809998,
+      "expected_return": 1.3403177291845987,
+      "volatility": 0.4437391661383354,
+      "investment": 2810496.1388430046,
+      "shares": 24268
+    },
+    {
+      "stock": "AMZN",
+      "sector": "Technology",
+      "weight": 0.25337705886097267,
+      "price": 3148.72998,
+      "expected_return": 0.9621944426972859,
+      "volatility": 0.3568564103180746,
+      "investment": 2533770.5886097266,
+      "shares": 804
+    },
+    {
+      "stock": "MSFT",
+      "sector": "Technology",
+      "weight": 0.2351118794868814,
+      "price": 210.330002,
+      "expected_return": 0.7126154050049027,
+      "volatility": 0.42542109659598476,
+      "investment": 2351118.794868814,
+      "shares": 11178
+    },
+    {
+      "stock": "FB",
+      "sector": "Technology",
+      "weight": 0.2304614477678456,
+      "price": 261.899994,
+      "expected_return": 0.6490709826086223,
+      "volatility": 0.4313557492015796,
+      "investment": 2304614.477678456,
+      "shares": 8799
+    }
+  ],
+  "portfolio_summary": {
+    "expected_return": 0.9376239637907139,
+    "volatility": 0.20884379794615454,
+    "sharpe_ratio": 4.4895944864613995,
+    "total_investment": 10000000.0,
+    "number_of_stocks": 4,
+    "sectors": [
+      "Technology"
+    ]
+  },
+  "model_info": {
+    "name": "Bayesian Ridge",
+    "test_r2": 0.974674446601822,
+    "training_date": "2025-11-28T07:04:58.636363"
+  }
+}
